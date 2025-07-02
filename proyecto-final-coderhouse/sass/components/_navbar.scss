@@ -1,0 +1,11 @@
+/* Estilos de la barra de navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: $a-color;
+    color: $button-color;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: $box-shadow;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+/* Estilos de enlaces */
+a {
+  color: $a-color;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Estilos de botones */
+button {
+  background-color: $button-bg;
+  color: $button-color;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: $buttonhover-bg;
+}

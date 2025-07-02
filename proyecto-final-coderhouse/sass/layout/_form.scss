@@ -1,0 +1,35 @@
+/* Estilos de formularios */
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: $form-bg;
+  border-radius: 10px;
+  box-shadow: $box-shadow;
+  border: $border-color;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: $form-color;
+}
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: $border-color;
+  border-radius: 5px;
+} 
+form input[type="submit"] {
+  background-color: $border-color;
+  color: $secondary-color;
+  cursor: pointer;
+}
+form input[type="submit"]:hover {
+  background-color: $forminput-bg;
+}

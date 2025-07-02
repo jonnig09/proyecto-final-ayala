@@ -1,0 +1,40 @@
+@import "global/reset";
+@import "utils/variables";
+@import "components/header";
+@import "components/main";
+@import "layout/form";
+@import "layout/button";
+@import "layout/productos";
+@import "components/footer";
+@import "components/navbar";
+@import "components/redes-sociales";
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: $body-bg;
+  color: $body-color;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 0; 
+  display: flex;
+  flex-direction: column;
+}
+h1, h2, h3 {
+  color: $body-h;
+}
+p {
+  margin-bottom: 1em;
+  font-size: 16px;
+  color: $body-p;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
